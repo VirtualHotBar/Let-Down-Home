@@ -1,0 +1,59 @@
+/* 底部链接栏 */
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: rgba(243, 243, 252, 0.1);
+  backdrop-filter: saturate(180%) blur(20px);
+  z-index: 9999;
+}
+
+
+/* 按钮美化 */
+.login-button {
+  width: 270px;
+  /* 宽度 */
+  height: 40px;
+  /* 高度 */
+  border-width: 0px;
+  /* 边框宽度 */
+  border-radius: 3px;
+  /* 边框半径 */
+  background: #1E90FF;
+  /* 背景颜色 */
+  cursor: pointer;
+  /* 鼠标移入按钮范围时出现手势 */
+  outline: none;
+  /* 不显示轮廓线 */
+  font-family: Microsoft YaHei;
+  /* 设置字体 */
+  color: white;
+  /* 字体颜色 */
+  font-size: 17px;
+  /* 字体大小 */
+}
+.login-button:hover {
+  /* 鼠标移入按钮范围时改变颜色 */
+  background: #5599FF;
+}
+
+
+
+/* 链接美化 */
+a:link {
+  color: #0099ff;
+  text-decoration: none;
+}
+a:visited {
+  color: #00aeff;
+  text-decoration: none;
+}
+a:hover {
+  color: #95deff;
+  text-decoration: none;
+}
+a:active {
+  color: #9655ff;
+  text-decoration: none;
+}
